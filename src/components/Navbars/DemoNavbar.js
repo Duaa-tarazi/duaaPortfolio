@@ -1,19 +1,13 @@
 /*!
-
 =========================================================
 * Argon Design System React - v1.1.0
 =========================================================
-
 * Product Page: https://www.creative-tim.com/product/argon-design-system-react
 * Copyright 2020 Creative Tim (https://www.creative-tim.com)
 * Licensed under MIT (https://github.com/creativetimofficial/argon-design-system-react/blob/main/LICENSE.md)
-
 * Coded by Creative Tim
-
 =========================================================
-
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
 */
 import React from "react";
 import { Link } from "react-router-dom";
@@ -83,7 +77,7 @@ class DemoNavbar extends React.Component {
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse>
+              <UncontrolledCollapse
                 toggler="#navbar_global"
                 navbar
                 className={this.state.collapseClasses}
@@ -108,12 +102,13 @@ class DemoNavbar extends React.Component {
                     </Col>
                   </Row>
                 </div>
-                
+                <Nav className="navbar-nav-hover align-items-lg-center" navbar>
                   <UncontrolledDropdown nav>
                     <DropdownToggle nav>
-                      <i className="ni ni-collection d-lg-none mr-1" />
-                      <span className="nav-link-inner--text">Examples</span>
+                      <i className="ni ni-ui-04 d-lg-none mr-1" />
+                      <span className="nav-link-inner--text">Components</span>
                     </DropdownToggle>
+                    
                     <DropdownMenu>
                       <DropdownItem to="/landing-page" tag={Link}>
                         Landing
