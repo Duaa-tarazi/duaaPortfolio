@@ -83,7 +83,7 @@ class DemoNavbar extends React.Component {
               <button className="navbar-toggler" id="navbar_global">
                 <span className="navbar-toggler-icon" />
               </button>
-              <UncontrolledCollapse
+              <UncontrolledCollapse>
                 toggler="#navbar_global"
                 navbar
                 className={this.state.collapseClasses}
