@@ -81,37 +81,12 @@ class Landing extends React.Component {
                   <Row>
                     <Col lg="6">
                       <h1 className="display-3 text-white">
-                        A beautiful Design System{" "}
-                        <span>completed with examples</span>
+                        FullStack Devoloper{" "}
+                        <span></span>
                       </h1>
-                      <p className="lead text-white">
-                        The design system comes with four pre-built pages to
-                        help you get started faster. You can change the text and
-                        images and you're good to go.
-                      </p>
+                     
                       <div className="btn-wrapper">
-                        <Button
-                          className="btn-icon mb-3 mb-sm-0"
-                          color="info"
-                          href="https://demos.creative-tim.com/argon-design-system-react/#/documentation/alerts?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="fa fa-code" />
-                          </span>
-                          <span className="btn-inner--text">Components</span>
-                        </Button>
-                        <Button
-                          className="btn-white btn-icon mb-3 mb-sm-0 ml-1"
-                          color="default"
-                          href="https://www.creative-tim.com/product/argon-design-system-react?ref=adsr-landing-page"
-                        >
-                          <span className="btn-inner--icon mr-1">
-                            <i className="ni ni-cloud-download-95" />
-                          </span>
-                          <span className="btn-inner--text">
-                            Download React
-                          </span>
-                        </Button>
+                        
                       </div>
                     </Col>
                   </Row>
@@ -148,22 +123,20 @@ class Landing extends React.Component {
                             <i className="ni ni-check-bold" />
                           </div>
                           <h6 className="text-primary text-uppercase">
-                            Download Argon
+                            102
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           I Learned HTML , CSS ,JAVAScript
                           </p>
                           <div>
                             <Badge color="primary" pill className="mr-1">
-                              design
+                              HTML
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              system
+                              CSS
                             </Badge>
                             <Badge color="primary" pill className="mr-1">
-                              creative
+                              JavaScript
                             </Badge>
                           </div>
                           <Button
@@ -184,19 +157,17 @@ class Landing extends React.Component {
                             <i className="ni ni-istanbul" />
                           </div>
                           <h6 className="text-success text-uppercase">
-                            Build Something
+                            201
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           I Learned JAVASCRIPT .GITHUB frame work
                           </p>
                           <div>
                             <Badge color="success" pill className="mr-1">
-                              business
+                              GitHub
                             </Badge>
                             <Badge color="success" pill className="mr-1">
-                              vision
+                              JavaScript
                             </Badge>
                             <Badge color="success" pill className="mr-1">
                               success
@@ -220,22 +191,20 @@ class Landing extends React.Component {
                             <i className="ni ni-planet" />
                           </div>
                           <h6 className="text-warning text-uppercase">
-                            Prepare Launch
+                            301
                           </h6>
                           <p className="description mt-3">
-                            Argon is a great free UI package based on Bootstrap
-                            4 that includes the most important components and
-                            features.
+                           Full-stack devoloping
                           </p>
                           <div>
                             <Badge color="warning" pill className="mr-1">
-                              marketing
+                              ReactJS
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              product
+                              Netlify
                             </Badge>
                             <Badge color="warning" pill className="mr-1">
-                              launch
+                            JSX
                             </Badge>
                           </div>
                           <Button

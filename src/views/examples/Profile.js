@@ -126,7 +126,7 @@ class Profile extends React.Component {
                     <h3>
                       Duaa Tarazi{" "}
 
-                      <span className="font-weight-light">, 27</span>
+                      <span className="font-weight-light"></span>
                     </h3>
                     <div className="h6 font-weight-300">
                       <i className="ni location_pin mr-2" />
@@ -146,7 +146,7 @@ class Profile extends React.Component {
                     <Row className="justify-content-center">
                       <Col lg="9">
                         <p>
-                          ------------
+                          Computer Information System
                         </p>
                         <a href="#pablo" onClick={e => e.preventDefault()}>
                           Show more
